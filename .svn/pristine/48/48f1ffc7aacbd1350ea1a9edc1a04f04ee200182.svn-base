@@ -1,0 +1,123 @@
+﻿namespace WindowsSQLCommand
+{
+    partial class FrmBuscarProducto
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnretornar = new System.Windows.Forms.Button();
+            this.btnaceptar = new System.Windows.Forms.Button();
+            this.dgdatos = new System.Windows.Forms.DataGridView();
+            this.txtbuscar = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgdatos)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btnretornar
+            // 
+            this.btnretornar.Location = new System.Drawing.Point(462, 335);
+            this.btnretornar.Name = "btnretornar";
+            this.btnretornar.Size = new System.Drawing.Size(75, 23);
+            this.btnretornar.TabIndex = 19;
+            this.btnretornar.Text = "Retornar";
+            this.btnretornar.UseVisualStyleBackColor = true;
+            // 
+            // btnaceptar
+            // 
+            this.btnaceptar.Enabled = false;
+            this.btnaceptar.Location = new System.Drawing.Point(261, 335);
+            this.btnaceptar.Name = "btnaceptar";
+            this.btnaceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnaceptar.TabIndex = 18;
+            this.btnaceptar.Text = "Aceptar";
+            this.btnaceptar.UseVisualStyleBackColor = true;
+            this.btnaceptar.Click += new System.EventHandler(this.btnaceptar_Click);
+            // 
+            // dgdatos
+            // 
+            this.dgdatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgdatos.Location = new System.Drawing.Point(29, 98);
+            this.dgdatos.Name = "dgdatos";
+            this.dgdatos.Size = new System.Drawing.Size(508, 213);
+            this.dgdatos.TabIndex = 17;
+            // 
+            // txtbuscar
+            // 
+            this.txtbuscar.Location = new System.Drawing.Point(219, 46);
+            this.txtbuscar.Name = "txtbuscar";
+            this.txtbuscar.Size = new System.Drawing.Size(100, 20);
+            this.txtbuscar.TabIndex = 16;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(131, 49);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 13);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Codigo/Nombre";
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Location = new System.Drawing.Point(325, 42);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.TabIndex = 14;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // FrmBuscarProducto
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(566, 374);
+            this.Controls.Add(this.btnretornar);
+            this.Controls.Add(this.btnaceptar);
+            this.Controls.Add(this.dgdatos);
+            this.Controls.Add(this.txtbuscar);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnBuscar);
+            this.Name = "FrmBuscarProducto";
+            this.Text = "FrmBuscarProducto";
+            ((System.ComponentModel.ISupportInitialize)(this.dgdatos)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnretornar;
+        private System.Windows.Forms.Button btnaceptar;
+        private System.Windows.Forms.DataGridView dgdatos;
+        private System.Windows.Forms.TextBox txtbuscar;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnBuscar;
+    }
+}
